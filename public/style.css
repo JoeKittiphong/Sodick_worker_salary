@@ -1,0 +1,70 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: cadetblue;
+}
+
+.getVal{
+    margin: 30px auto;
+    width: 300px;
+    height: 250px;
+    background-color: rgb(4, 89, 245);
+    border-radius: 10px;
+    padding-top: 30px;
+    box-shadow: 5px 8px 3px rgba(0, 0, 0, 0.6);
+}
+.getVal input[type="text"]{
+    margin: 5px;
+    width: 95%;
+    height: 30px;
+    border: 0;
+    border-radius: 5px;
+    background-color: rgba(240, 255, 255, 0.9);
+    text-align: center;
+    font-size: 20px;
+}
+.getVal button[type="submit"]{
+    margin: 5px;
+    width: 96%;
+    height: 40px;
+    border: 0;
+    border-radius: 5px;
+    background-color: aquamarine;
+    font-size: 30px;
+}
+.getVal button[type="submit"]:hover{
+    background-color: rgb(255, 67, 67);
+    color: white;
+}
+.res{
+    margin: 20px auto;
+    width: 300px;
+    height: 420px;
+    background-color: rgb(4, 89, 245);
+    color: azure;
+    border-radius: 10px;
+    box-shadow: 5px 8px 3px rgba(0, 0, 0, 0.6);
+}
+.res .report{
+    margin-left: 20px;
+    float: left;
+    line-height: 20px;
+    font-size: 20px;
+}
+.res .result{
+    margin-right: 20px;
+    float: right;
+    line-height: 20px;
+    font-size: 20px;
+}
+.total{
+    clear: both;
+    width: 300px;
+    height: 50px;
+    background-color: rgb(4, 89, 245);
+    color: azure;
+    border-radius: 10px;
+    box-shadow: 5px 8px 3px rgba(0, 0, 0, 0.6);
+    text-align: center;
+    font-size: 40px;
+}
